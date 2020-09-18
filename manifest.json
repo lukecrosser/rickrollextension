@@ -1,0 +1,19 @@
+{
+  "name": "Rick Roll Roll",
+  "version": "1",
+  "description": "created by luke crosser, ",
+
+  "content_scripts": [
+    {
+      "matches": ["http://*/*", "https://*/*"],
+      "js": ["jquery-1.11.1.min.js", "background.js"]
+    }
+  ],
+
+  "permissions": [
+    "tabs",
+    "http://*/*",
+    "https://*/*"
+  ],
+  "manifest_version": 2
+}
