@@ -6,7 +6,7 @@ $(document).ready(function() {
 });
 
 var generateHTML = function() {
-	var html = "<video autoplay loop style='height: 100vh; width: 100vw'><source src='https://raw.githubusercontent.com/lukecrosser/rickrollextension/vid.webm' type='video/webm'><source src='https://raw.githubusercontent.com/lukecrosser/rickrollextension/vid.mp4' type='video/mp4'></video>";
+	var html = "<video autoplay loop style='height: 100vh; width: 100vw'><source src='https://github.com/lukecrosser/rickrollextension/blob/master/vid.webm?raw=true' type='video/webm'><source src='https://github.com/lukecrosser/rickrollextension/blob/master/vid.mp4?raw=true' type='video/mp4'></video>";
 	return html;
 };
 
